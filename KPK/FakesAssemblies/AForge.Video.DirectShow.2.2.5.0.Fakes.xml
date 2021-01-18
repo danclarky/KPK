@@ -1,0 +1,2312 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AForge.Video.DirectShow.2.2.5.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimFileVideoSource">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.FileVideoSource</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.#ctor(AForge.Video.DirectShow.FileVideoSource)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.Bind(AForge.Video.IVideoSource)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.BytesReceivedGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_BytesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.Constructor">
+            <summary>Задает оболочка совместимости FileVideoSource.FileVideoSource()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.ConstructorString">
+            <summary>Задает оболочка совместимости FileVideoSource.FileVideoSource(String fileName)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.FramesReceivedGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_FramesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.Free">
+            <summary>Задает оболочка совместимости FileVideoSource.Free()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.IsRunningGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_IsRunning()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.NewFrameAddNewFrameEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.add_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.NewFrameRemoveNewFrameEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.remove_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.OnNewFrameBitmap">
+            <summary>Задает оболочка совместимости FileVideoSource.OnNewFrame(Bitmap image)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.PlayingFinishedAddPlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.add_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.PlayingFinishedRemovePlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.remove_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.PreventFreezingGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_PreventFreezing()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.PreventFreezingSetBoolean">
+            <summary>Задает оболочка совместимости FileVideoSource.set_PreventFreezing(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.ReferenceClockEnabledGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_ReferenceClockEnabled()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.ReferenceClockEnabledSetBoolean">
+            <summary>Задает оболочка совместимости FileVideoSource.set_ReferenceClockEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.SignalToStop">
+            <summary>Задает оболочка совместимости FileVideoSource.SignalToStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.SourceGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_Source()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.SourceSetString">
+            <summary>Задает оболочка совместимости FileVideoSource.set_Source(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.Start">
+            <summary>Задает оболочка совместимости FileVideoSource.Start()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.Stop">
+            <summary>Задает оболочка совместимости FileVideoSource.Stop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.VideoSourceErrorAddVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.add_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.VideoSourceErrorRemoveVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.remove_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.WaitForStop">
+            <summary>Задает оболочка совместимости FileVideoSource.WaitForStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.WorkerThread">
+            <summary>Задает оболочка совместимости FileVideoSource.WorkerThread()</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.BytesReceivedGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_BytesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.FramesReceivedGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_FramesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.Free">
+            <summary>Задает оболочка совместимости FileVideoSource.Free()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.IsRunningGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_IsRunning()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.NewFrameAddNewFrameEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.add_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.NewFrameRemoveNewFrameEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.remove_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.OnNewFrameBitmap">
+            <summary>Задает оболочка совместимости FileVideoSource.OnNewFrame(Bitmap image)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.PlayingFinishedAddPlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.add_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.PlayingFinishedRemovePlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.remove_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.PreventFreezingGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_PreventFreezing()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.PreventFreezingSetBoolean">
+            <summary>Задает оболочка совместимости FileVideoSource.set_PreventFreezing(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.ReferenceClockEnabledGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_ReferenceClockEnabled()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.ReferenceClockEnabledSetBoolean">
+            <summary>Задает оболочка совместимости FileVideoSource.set_ReferenceClockEnabled(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.SignalToStop">
+            <summary>Задает оболочка совместимости FileVideoSource.SignalToStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.SourceGet">
+            <summary>Задает оболочка совместимости FileVideoSource.get_Source()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.SourceSetString">
+            <summary>Задает оболочка совместимости FileVideoSource.set_Source(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.Start">
+            <summary>Задает оболочка совместимости FileVideoSource.Start()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.Stop">
+            <summary>Задает оболочка совместимости FileVideoSource.Stop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.VideoSourceErrorAddVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.add_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.VideoSourceErrorRemoveVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости FileVideoSource.remove_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.WaitForStop">
+            <summary>Задает оболочка совместимости FileVideoSource.WaitForStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFileVideoSource.AllInstances.WorkerThread">
+            <summary>Задает оболочка совместимости FileVideoSource.WorkerThread()</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimFilterCategory">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.FilterCategory</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterCategory.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterCategory.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterCategory.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterCategory.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterCategory.StaticConstructor">
+            <summary>Задает оболочка совместимости FilterCategory.FilterCategory()</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimFilterInfo">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.FilterInfo</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfo.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfo.#ctor(AForge.Video.DirectShow.FilterInfo)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfo.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfo.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfo.Bind(System.IComparable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.CompareToObject">
+            <summary>Задает оболочка совместимости FilterInfo.CompareTo(Object value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.ConstructorIMoniker">
+            <summary>Задает оболочка совместимости FilterInfo.FilterInfo(IMoniker moniker)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.ConstructorString">
+            <summary>Задает оболочка совместимости FilterInfo.FilterInfo(String monikerString)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.CreateFilterString">
+            <summary>Задает оболочка совместимости FilterInfo.CreateFilter(String filterMoniker)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.GetMonikerStringIMoniker">
+            <summary>Задает оболочка совместимости FilterInfo.GetMonikerString(IMoniker moniker)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.GetNameIMoniker">
+            <summary>Задает оболочка совместимости FilterInfo.GetName(IMoniker moniker)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.GetNameString">
+            <summary>Задает оболочка совместимости FilterInfo.GetName(String monikerString)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.MonikerStringGet">
+            <summary>Задает оболочка совместимости FilterInfo.get_MonikerString()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.MonikerStringSetString">
+            <summary>Задает оболочка совместимости FilterInfo.set_MonikerString(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.NameGet">
+            <summary>Задает оболочка совместимости FilterInfo.get_Name()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.NameSetString">
+            <summary>Задает оболочка совместимости FilterInfo.set_Name(String value)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.CompareToObject">
+            <summary>Задает оболочка совместимости FilterInfo.CompareTo(Object value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.GetMonikerStringIMoniker">
+            <summary>Задает оболочка совместимости FilterInfo.GetMonikerString(IMoniker moniker)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.GetNameIMoniker">
+            <summary>Задает оболочка совместимости FilterInfo.GetName(IMoniker moniker)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.GetNameString">
+            <summary>Задает оболочка совместимости FilterInfo.GetName(String monikerString)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.MonikerStringGet">
+            <summary>Задает оболочка совместимости FilterInfo.get_MonikerString()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.MonikerStringSetString">
+            <summary>Задает оболочка совместимости FilterInfo.set_MonikerString(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.NameGet">
+            <summary>Задает оболочка совместимости FilterInfo.get_Name()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfo.AllInstances.NameSetString">
+            <summary>Задает оболочка совместимости FilterInfo.set_Name(String value)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.FilterInfoCollection</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.#ctor(AForge.Video.DirectShow.FilterInfoCollection)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.Bind(System.Collections.ICollection)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.Bind(System.Collections.IEnumerable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.Bind(System.Collections.IList)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.CollectFiltersGuid">
+            <summary>Задает оболочка совместимости FilterInfoCollection.CollectFilters(Guid category)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.ConstructorGuid">
+            <summary>Задает оболочка совместимости FilterInfoCollection.FilterInfoCollection(Guid category)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.ItemGetInt32">
+            <summary>Задает оболочка совместимости FilterInfoCollection.get_Item(Int32 index)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.AllInstances.CollectFiltersGuid">
+            <summary>Задает оболочка совместимости FilterInfoCollection.CollectFilters(Guid category)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimFilterInfoCollection.AllInstances.ItemGetInt32">
+            <summary>Задает оболочка совместимости FilterInfoCollection.get_Item(Int32 index)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.VideoCapabilities</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.#ctor(AForge.Video.DirectShow.VideoCapabilities)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.Constructor">
+            <summary>Задает оболочка совместимости VideoCapabilities.VideoCapabilities()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.EqualityOpVideoCapabilitiesVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCapabilities.op_Equality(VideoCapabilities a, VideoCapabilities b)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.EqualsObject">
+            <summary>Задает оболочка совместимости VideoCapabilities.Equals(Object obj)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.EqualsVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCapabilities.Equals(VideoCapabilities vc2)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.FrameRateGet">
+            <summary>Задает оболочка совместимости VideoCapabilities.get_FrameRate()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.GetHashCode">
+            <summary>Задает оболочка совместимости VideoCapabilities.GetHashCode()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.InequalityOpVideoCapabilitiesVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCapabilities.op_Inequality(VideoCapabilities a, VideoCapabilities b)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.AllInstances.EqualsObject">
+            <summary>Задает оболочка совместимости VideoCapabilities.Equals(Object obj)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.AllInstances.EqualsVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCapabilities.Equals(VideoCapabilities vc2)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.AllInstances.FrameRateGet">
+            <summary>Задает оболочка совместимости VideoCapabilities.get_FrameRate()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCapabilities.AllInstances.GetHashCode01">
+            <summary>Задает оболочка совместимости VideoCapabilities.GetHashCode()</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.VideoCaptureDevice</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.#ctor(AForge.Video.DirectShow.VideoCaptureDevice)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.Bind(AForge.Video.IVideoSource)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AvailableCrossbarVideoInputsGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_AvailableCrossbarVideoInputs()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.BytesReceivedGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_BytesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.CheckIfCrossbarAvailable">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.CheckIfCrossbarAvailable()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.Constructor">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.VideoCaptureDevice()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.ConstructorString">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.VideoCaptureDevice(String deviceMoniker)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.CrossbarVideoInputGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_CrossbarVideoInput()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.CrossbarVideoInputSetVideoInput">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_CrossbarVideoInput(VideoInput value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DesiredFrameRateGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_DesiredFrameRate()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DesiredFrameRateSetInt32">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_DesiredFrameRate(Int32 value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DesiredFrameSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_DesiredFrameSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DesiredFrameSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_DesiredFrameSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DesiredSnapshotSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_DesiredSnapshotSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DesiredSnapshotSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_DesiredSnapshotSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DisplayCrossbarPropertyPageIntPtr">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.DisplayCrossbarPropertyPage(IntPtr parentWindow)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DisplayPropertyPageIntPtr">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.DisplayPropertyPage(IntPtr parentWindow)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.DisplayPropertyPageIntPtrObject">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.DisplayPropertyPage(IntPtr parentWindow, Object sourceObject)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.FramesReceivedGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_FramesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.Free">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.Free()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.GetCameraPropertyCameraControlPropertyInt32OutCameraControlFlagsOut">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.GetCameraProperty(CameraControlProperty property, Int32&amp; value, CameraControlFlags&amp; controlFlags)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.IsRunningGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_IsRunning()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.NewFrameAddNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.NewFrameRemoveNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.OnNewFrameBitmap">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.OnNewFrame(Bitmap image)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.OnSnapshotFrameBitmap">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.OnSnapshotFrame(Bitmap image)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.PlayingFinishedAddPlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.PlayingFinishedRemovePlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.ProvideSnapshotsGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_ProvideSnapshots()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.ProvideSnapshotsSetBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_ProvideSnapshots(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SetCameraPropertyCameraControlPropertyInt32CameraControlFlags">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.SetCameraProperty(CameraControlProperty property, Int32 value, CameraControlFlags controlFlags)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SignalToStop">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.SignalToStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SimulateTrigger">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.SimulateTrigger()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SnapshotCapabilitiesGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_SnapshotCapabilities()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SnapshotFrameAddNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_SnapshotFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SnapshotFrameRemoveNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_SnapshotFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SnapshotResolutionGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_SnapshotResolution()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SnapshotResolutionSetVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_SnapshotResolution(VideoCapabilities value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SourceGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_Source()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SourceObjectGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_SourceObject()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.SourceSetString">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_Source(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.Start">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.Start()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.StaticConstructor">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.VideoCaptureDevice()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.Stop">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.Stop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.VideoCapabilitiesGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_VideoCapabilities()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.VideoResolutionGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_VideoResolution()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.VideoResolutionSetVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_VideoResolution(VideoCapabilities value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.VideoSourceErrorAddVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.VideoSourceErrorRemoveVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.WaitForStop">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.WaitForStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.WorkerThread">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.WorkerThread()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.WorkerThreadBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.WorkerThread(Boolean runGraph)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.AvailableCrossbarVideoInputsGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_AvailableCrossbarVideoInputs()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.BytesReceivedGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_BytesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.CheckIfCrossbarAvailable">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.CheckIfCrossbarAvailable()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.CrossbarVideoInputGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_CrossbarVideoInput()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.CrossbarVideoInputSetVideoInput">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_CrossbarVideoInput(VideoInput value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DesiredFrameRateGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_DesiredFrameRate()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DesiredFrameRateSetInt32">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_DesiredFrameRate(Int32 value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DesiredFrameSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_DesiredFrameSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DesiredFrameSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_DesiredFrameSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DesiredSnapshotSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_DesiredSnapshotSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DesiredSnapshotSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_DesiredSnapshotSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DisplayCrossbarPropertyPageIntPtr">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.DisplayCrossbarPropertyPage(IntPtr parentWindow)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DisplayPropertyPageIntPtr">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.DisplayPropertyPage(IntPtr parentWindow)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.DisplayPropertyPageIntPtrObject">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.DisplayPropertyPage(IntPtr parentWindow, Object sourceObject)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.FramesReceivedGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_FramesReceived()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.Free">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.Free()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.GetCameraPropertyCameraControlPropertyInt32OutCameraControlFlagsOut">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.GetCameraProperty(CameraControlProperty property, Int32&amp; value, CameraControlFlags&amp; controlFlags)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.IsRunningGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_IsRunning()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.NewFrameAddNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.NewFrameRemoveNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_NewFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.OnNewFrameBitmap">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.OnNewFrame(Bitmap image)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.OnSnapshotFrameBitmap">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.OnSnapshotFrame(Bitmap image)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.PlayingFinishedAddPlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.PlayingFinishedRemovePlayingFinishedEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_PlayingFinished(PlayingFinishedEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.ProvideSnapshotsGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_ProvideSnapshots()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.ProvideSnapshotsSetBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_ProvideSnapshots(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SetCameraPropertyCameraControlPropertyInt32CameraControlFlags">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.SetCameraProperty(CameraControlProperty property, Int32 value, CameraControlFlags controlFlags)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SignalToStop">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.SignalToStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SimulateTrigger">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.SimulateTrigger()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SnapshotCapabilitiesGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_SnapshotCapabilities()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SnapshotFrameAddNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_SnapshotFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SnapshotFrameRemoveNewFrameEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_SnapshotFrame(NewFrameEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SnapshotResolutionGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_SnapshotResolution()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SnapshotResolutionSetVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_SnapshotResolution(VideoCapabilities value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SourceGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_Source()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SourceObjectGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_SourceObject()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.SourceSetString">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_Source(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.Start">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.Start()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.Stop">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.Stop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.VideoCapabilitiesGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_VideoCapabilities()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.VideoResolutionGet">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.get_VideoResolution()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.VideoResolutionSetVideoCapabilities">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.set_VideoResolution(VideoCapabilities value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.VideoSourceErrorAddVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.add_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.VideoSourceErrorRemoveVideoSourceErrorEventHandler">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.remove_VideoSourceError(VideoSourceErrorEventHandler value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.WaitForStop">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.WaitForStop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.WorkerThread">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.WorkerThread()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDevice.AllInstances.WorkerThreadBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDevice.WorkerThread(Boolean runGraph)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.VideoCaptureDeviceForm</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.#ctor(AForge.Video.DirectShow.VideoCaptureDeviceForm)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Bind(System.ComponentModel.IComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Bind(System.ComponentModel.ISynchronizeInvoke)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Bind(System.Windows.Forms.IBindableComponent)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Bind(System.Windows.Forms.IContainerControl)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Bind(System.Windows.Forms.IDropTarget)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Bind(System.Windows.Forms.IWin32Window)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Bind(System.IDisposable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.CaptureSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_CaptureSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.CaptureSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_CaptureSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.ConfigureSnapshotsGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_ConfigureSnapshots()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.ConfigureSnapshotsSetBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_ConfigureSnapshots(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.Constructor">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.VideoCaptureDeviceForm()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.DisposeBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.EnumeratedSupportedFrameSizesVideoCaptureDevice">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.EnumeratedSupportedFrameSizes(VideoCaptureDevice videoDevice)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.InitializeComponent">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.InitializeComponent()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.SnapshotSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_SnapshotSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.SnapshotSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_SnapshotSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.VideoCaptureDeviceForm_LoadObjectEventArgs">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.VideoCaptureDeviceForm_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.VideoDeviceGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_VideoDevice()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.VideoDeviceMonikerGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_VideoDeviceMoniker()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.VideoDeviceMonikerSetString">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_VideoDeviceMoniker(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.VideoInputGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_VideoInput()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.VideoInputSetVideoInput">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_VideoInput(VideoInput value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.devicesCombo_SelectedIndexChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.devicesCombo_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.okButton_ClickObjectEventArgs">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.okButton_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.CaptureSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_CaptureSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.CaptureSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_CaptureSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.ConfigureSnapshotsGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_ConfigureSnapshots()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.ConfigureSnapshotsSetBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_ConfigureSnapshots(Boolean value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.DisposeBoolean">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.EnumeratedSupportedFrameSizesVideoCaptureDevice">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.EnumeratedSupportedFrameSizes(VideoCaptureDevice videoDevice)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.InitializeComponent">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.InitializeComponent()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.SnapshotSizeGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_SnapshotSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.SnapshotSizeSetSize">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_SnapshotSize(Size value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.VideoCaptureDeviceForm_LoadObjectEventArgs">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.VideoCaptureDeviceForm_Load(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.VideoDeviceGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_VideoDevice()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.VideoDeviceMonikerGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_VideoDeviceMoniker()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.VideoDeviceMonikerSetString">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_VideoDeviceMoniker(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.VideoInputGet">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.get_VideoInput()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.VideoInputSetVideoInput">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.set_VideoInput(VideoInput value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.devicesCombo_SelectedIndexChangedObjectEventArgs">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.devicesCombo_SelectedIndexChanged(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoCaptureDeviceForm.AllInstances.okButton_ClickObjectEventArgs">
+            <summary>Задает оболочка совместимости VideoCaptureDeviceForm.okButton_Click(Object sender, EventArgs e)</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoInput">
+            <summary>Тип оболочки совместимости для AForge.Video.DirectShow.VideoInput</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoInput.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoInput.#ctor(AForge.Video.DirectShow.VideoInput)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoInput.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.ShimVideoInput.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoInput.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoInput.ConstructorInt32PhysicalConnectorType">
+            <summary>Задает оболочка совместимости VideoInput.VideoInput(Int32 index, PhysicalConnectorType type)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.ShimVideoInput.DefaultGet">
+            <summary>Задает оболочка совместимости VideoInput.get_Default()</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.ShimVideoInput.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.StubFileVideoSource">
+            <summary>Тип заглушки AForge.Video.DirectShow.FileVideoSource</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFileVideoSource.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFileVideoSource.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFileVideoSource.AttachBackingFieldToSource">
+            <summary>Присоединение делегатов для эмуляции StubFileVideoSource.Source как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFileVideoSource.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubFileVideoSource</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFileVideoSource.SourceGet">
+            <summary>Задает stub FileVideoSource.get_Source()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFileVideoSource.SourceSetString">
+            <summary>Задает stub FileVideoSource.set_Source(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFileVideoSource.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFileVideoSource.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFileVideoSource.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFileVideoSource.Source">
+            <summary>Задает stub FileVideoSource.get_Source()</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.StubFilterInfo">
+            <summary>Тип заглушки AForge.Video.DirectShow.FilterInfo</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfo.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfo.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubFilterInfo</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFilterInfo.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFilterInfo.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFilterInfo.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection">
+            <summary>Тип заглушки AForge.Video.DirectShow.FilterInfoCollection</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.#ctor(System.Guid)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubFilterInfoCollection</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnClear">
+            <summary>Задает заглушка CollectionBase.OnClear()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnClear01">
+            <summary>Задает stub CollectionBase.OnClear()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnClearComplete">
+            <summary>Задает заглушка CollectionBase.OnClearComplete()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnClearComplete01">
+            <summary>Задает stub CollectionBase.OnClearComplete()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnInsert(System.Int32,System.Object)">
+            <summary>Задает заглушка CollectionBase.OnInsert(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnInsertComplete(System.Int32,System.Object)">
+            <summary>Задает заглушка CollectionBase.OnInsertComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnInsertCompleteInt32Object">
+            <summary>Задает stub CollectionBase.OnInsertComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnInsertInt32Object">
+            <summary>Задает stub CollectionBase.OnInsert(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnRemove(System.Int32,System.Object)">
+            <summary>Задает заглушка CollectionBase.OnRemove(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnRemoveComplete(System.Int32,System.Object)">
+            <summary>Задает заглушка CollectionBase.OnRemoveComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnRemoveCompleteInt32Object">
+            <summary>Задает stub CollectionBase.OnRemoveComplete(Int32 index, Object value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnRemoveInt32Object">
+            <summary>Задает stub CollectionBase.OnRemove(Int32 index, Object value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnSet(System.Int32,System.Object,System.Object)">
+            <summary>Задает заглушка CollectionBase.OnSet(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnSetComplete(System.Int32,System.Object,System.Object)">
+            <summary>Задает заглушка CollectionBase.OnSetComplete(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnSetCompleteInt32ObjectObject">
+            <summary>Задает stub CollectionBase.OnSetComplete(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnSetInt32ObjectObject">
+            <summary>Задает stub CollectionBase.OnSet(Int32 index, Object oldValue, Object newValue)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnValidate(System.Object)">
+            <summary>Задает заглушка CollectionBase.OnValidate(Object value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.OnValidateObject">
+            <summary>Задает stub CollectionBase.OnValidate(Object value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubFilterInfoCollection.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice">
+            <summary>Тип заглушки AForge.Video.DirectShow.VideoCaptureDevice</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.AttachBackingFieldToSource">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDevice.Source как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubVideoCaptureDevice</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.SourceGet">
+            <summary>Задает stub VideoCaptureDevice.get_Source()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.SourceSetString">
+            <summary>Задает stub VideoCaptureDevice.set_Source(String value)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDevice.Source">
+            <summary>Задает stub VideoCaptureDevice.get_Source()</summary>
+        </member>
+        <member name="T:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm">
+            <summary>Тип заглушки AForge.Video.DirectShow.VideoCaptureDeviceForm</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AdjustFormScrollbars(System.Boolean)">
+            <summary>Задает заглушка Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AdjustFormScrollbarsBoolean">
+            <summary>Задает stub Form.AdjustFormScrollbars(Boolean displayScrollbars)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AllowDropGet">
+            <summary>Задает stub Control.get_AllowDrop()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AllowDropSetBoolean">
+            <summary>Задает stub Control.set_AllowDrop(Boolean value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AnchorGet">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AnchorSetAnchorStyles">
+            <summary>Задает stub Control.set_Anchor(AnchorStyles value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToAllowDrop">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.AllowDrop как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToAnchor">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.Anchor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToAutoScaleBaseSize">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.AutoScaleBaseSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToAutoScroll">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.AutoScroll как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToAutoScrollOffset">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.AutoScrollOffset как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToAutoSize">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.AutoSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToAutoValidate">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.AutoValidate как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToBackColor">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.BackColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToBackgroundImage">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.BackgroundImage как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToBackgroundImageLayout">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.BackgroundImageLayout как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToBindingContext">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.BindingContext как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToContextMenu">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.ContextMenu как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToContextMenuStrip">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.ContextMenuStrip как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToCursor">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.Cursor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToDock">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.Dock как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToDoubleBuffered">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.DoubleBuffered как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToFont">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.Font как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToForeColor">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.ForeColor как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToImeModeBase">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.ImeModeBase как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToMaximumSize">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.MaximumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToMinimumSize">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.MinimumSize как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToRightToLeft">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.RightToLeft как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToRightToLeftLayout">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.RightToLeftLayout как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToSite">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.Site как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AttachBackingFieldToText">
+            <summary>Присоединение делегатов для эмуляции StubVideoCaptureDeviceForm.Text как свойства с резервным полем.</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScaleBaseSizeGet">
+            <summary>Задает stub Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScaleBaseSizeSetSize">
+            <summary>Задает stub Form.set_AutoScaleBaseSize(Size value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScrollGet">
+            <summary>Задает stub Form.get_AutoScroll()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScrollOffsetGet">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScrollOffsetSetPoint">
+            <summary>Задает stub Control.set_AutoScrollOffset(Point value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScrollSetBoolean">
+            <summary>Задает stub Form.set_AutoScroll(Boolean value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoSizeGet">
+            <summary>Задает stub Form.get_AutoSize()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoSizeSetBoolean">
+            <summary>Задает stub Form.set_AutoSize(Boolean value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoValidateGet">
+            <summary>Задает stub Form.get_AutoValidate()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoValidateSetAutoValidate">
+            <summary>Задает stub Form.set_AutoValidate(AutoValidate value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackColorGet">
+            <summary>Задает stub Form.get_BackColor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackColorSetColor">
+            <summary>Задает stub Form.set_BackColor(Color value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackgroundImageGet">
+            <summary>Задает stub Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackgroundImageLayoutGet">
+            <summary>Задает stub Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackgroundImageLayoutSetImageLayout">
+            <summary>Задает stub Control.set_BackgroundImageLayout(ImageLayout value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackgroundImageSetImage">
+            <summary>Задает stub Control.set_BackgroundImage(Image value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BindingContextGet">
+            <summary>Задает stub ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BindingContextSetBindingContext">
+            <summary>Задает stub ContainerControl.set_BindingContext(BindingContext value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CanEnableImeGet">
+            <summary>Задает stub ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CanRaiseEventsGet">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ContextMenuGet">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ContextMenuSetContextMenu">
+            <summary>Задает stub Control.set_ContextMenu(ContextMenu value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ContextMenuStripGet">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ContextMenuStripSetContextMenuStrip">
+            <summary>Задает stub Control.set_ContextMenuStrip(ContextMenuStrip value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateAccessibilityInstance">
+            <summary>Задает заглушка Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateAccessibilityInstance01">
+            <summary>Задает stub Control.CreateAccessibilityInstance()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateControlsInstance">
+            <summary>Задает заглушка Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateControlsInstance01">
+            <summary>Задает stub Form.CreateControlsInstance()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateHandle">
+            <summary>Задает заглушка Form.CreateHandle()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateHandle01">
+            <summary>Задает stub Form.CreateHandle()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateParamsGet">
+            <summary>Задает stub Form.get_CreateParams()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CursorGet">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CursorSetCursor">
+            <summary>Задает stub Control.set_Cursor(Cursor value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefWndProc(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefWndProcMessageRef">
+            <summary>Задает stub Form.DefWndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultCursorGet">
+            <summary>Задает stub Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultImeModeGet">
+            <summary>Задает stub Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultMarginGet">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultMaximumSizeGet">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultMinimumSizeGet">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultPaddingGet">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultSizeGet">
+            <summary>Задает stub Form.get_DefaultSize()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DestroyHandle">
+            <summary>Задает заглушка Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DestroyHandle01">
+            <summary>Задает stub Control.DestroyHandle()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DisplayRectangleGet">
+            <summary>Задает stub ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Dispose(System.Boolean)">
+            <summary>Задает заглушка VideoCaptureDeviceForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DisposeBoolean">
+            <summary>Задает stub VideoCaptureDeviceForm.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DockGet">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DockSetDockStyle">
+            <summary>Задает stub Control.set_Dock(DockStyle value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DoubleBufferedGet">
+            <summary>Задает stub Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DoubleBufferedSetBoolean">
+            <summary>Задает stub Control.set_DoubleBuffered(Boolean value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.FocusedGet">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.FontGet">
+            <summary>Задает stub Control.get_Font()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.FontSetFont">
+            <summary>Задает stub Control.set_Font(Font value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ForeColorGet">
+            <summary>Задает stub Control.get_ForeColor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ForeColorSetColor">
+            <summary>Задает stub Control.set_ForeColor(Color value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetAccessibilityObjectById(System.Int32)">
+            <summary>Задает заглушка Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetAccessibilityObjectByIdInt32">
+            <summary>Задает stub Control.GetAccessibilityObjectById(Int32 objectId)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetPreferredSize(System.Drawing.Size)">
+            <summary>Задает заглушка Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetPreferredSizeSize">
+            <summary>Задает stub Control.GetPreferredSize(Size proposedSize)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetScaledBounds(System.Drawing.Rectangle,System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetScaledBoundsRectangleSizeFBoundsSpecified">
+            <summary>Задает stub Form.GetScaledBounds(Rectangle bounds, SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetService(System.Type)">
+            <summary>Задает заглушка Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.GetServiceType">
+            <summary>Задает stub Component.GetService(Type service)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ImeModeBaseGet">
+            <summary>Задает stub Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ImeModeBaseSetImeMode">
+            <summary>Задает stub Control.set_ImeModeBase(ImeMode value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.InitLayout">
+            <summary>Задает заглушка Control.InitLayout()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.InitLayout01">
+            <summary>Задает stub Control.InitLayout()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubVideoCaptureDeviceForm</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.IsInputChar(System.Char)">
+            <summary>Задает заглушка Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.IsInputCharChar">
+            <summary>Задает stub Control.IsInputChar(Char charCode)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.IsInputKey(System.Windows.Forms.Keys)">
+            <summary>Задает заглушка Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.IsInputKeyKeys">
+            <summary>Задает stub Control.IsInputKey(Keys keyData)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.LayoutEngineGet">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.MaximumSizeGet">
+            <summary>Задает stub Form.get_MaximumSize()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.MaximumSizeSetSize">
+            <summary>Задает stub Form.set_MaximumSize(Size value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.MinimumSizeGet">
+            <summary>Задает stub Form.get_MinimumSize()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.MinimumSizeSetSize">
+            <summary>Задает stub Form.set_MinimumSize(Size value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.NotifyInvalidate(System.Drawing.Rectangle)">
+            <summary>Задает заглушка Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.NotifyInvalidateRectangle">
+            <summary>Задает stub Control.NotifyInvalidate(Rectangle invalidatedArea)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnActivated(System.EventArgs)">
+            <summary>Задает заглушка Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnActivatedEventArgs">
+            <summary>Задает stub Form.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnAutoSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnAutoSizeChangedEventArgs">
+            <summary>Задает stub Control.OnAutoSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnAutoValidateChanged(System.EventArgs)">
+            <summary>Задает заглушка ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnAutoValidateChangedEventArgs">
+            <summary>Задает stub ContainerControl.OnAutoValidateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBackColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBackColorChangedEventArgs">
+            <summary>Задает stub Control.OnBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBackgroundImageChangedEventArgs">
+            <summary>Задает stub Form.OnBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBackgroundImageLayoutChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBackgroundImageLayoutChangedEventArgs">
+            <summary>Задает stub Form.OnBackgroundImageLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBindingContextChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnCausesValidationChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnCausesValidationChangedEventArgs">
+            <summary>Задает stub Control.OnCausesValidationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnChangeUICues(System.Windows.Forms.UICuesEventArgs)">
+            <summary>Задает заглушка Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnChangeUICuesUICuesEventArgs">
+            <summary>Задает stub Control.OnChangeUICues(UICuesEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClick(System.EventArgs)">
+            <summary>Задает заглушка Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClickEventArgs">
+            <summary>Задает stub Control.OnClick(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClientSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClientSizeChangedEventArgs">
+            <summary>Задает stub Control.OnClientSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClosed(System.EventArgs)">
+            <summary>Задает заглушка Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClosedEventArgs">
+            <summary>Задает stub Form.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает заглушка Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnClosingCancelEventArgs">
+            <summary>Задает stub Form.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnContextMenuChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnContextMenuChangedEventArgs">
+            <summary>Задает stub Control.OnContextMenuChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnContextMenuStripChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnContextMenuStripChangedEventArgs">
+            <summary>Задает stub Control.OnContextMenuStripChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnControlAdded(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает заглушка Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnControlAddedControlEventArgs">
+            <summary>Задает stub Control.OnControlAdded(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnControlRemoved(System.Windows.Forms.ControlEventArgs)">
+            <summary>Задает заглушка Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnControlRemovedControlEventArgs">
+            <summary>Задает stub Control.OnControlRemoved(ControlEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnCreateControl">
+            <summary>Задает заглушка Form.OnCreateControl()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnCreateControl01">
+            <summary>Задает stub Form.OnCreateControl()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnCursorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnCursorChangedEventArgs">
+            <summary>Задает stub Control.OnCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDeactivate(System.EventArgs)">
+            <summary>Задает заглушка Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDeactivateEventArgs">
+            <summary>Задает stub Form.OnDeactivate(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDockChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDockChangedEventArgs">
+            <summary>Задает stub Control.OnDockChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDoubleClick(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDoubleClickEventArgs">
+            <summary>Задает stub Control.OnDoubleClick(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragDrop(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragDropDragEventArgs">
+            <summary>Задает stub Control.OnDragDrop(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragEnter(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragEnterDragEventArgs">
+            <summary>Задает stub Control.OnDragEnter(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragLeaveEventArgs">
+            <summary>Задает stub Control.OnDragLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragOver(System.Windows.Forms.DragEventArgs)">
+            <summary>Задает заглушка Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnDragOverDragEventArgs">
+            <summary>Задает stub Control.OnDragOver(DragEventArgs drgevent)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnEnabledChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnEnabledChangedEventArgs">
+            <summary>Задает stub Form.OnEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnEnter(System.EventArgs)">
+            <summary>Задает заглушка Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnEnterEventArgs">
+            <summary>Задает stub Form.OnEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnFontChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnFontChangedEventArgs">
+            <summary>Задает stub Form.OnFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnForeColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnFormClosed(System.Windows.Forms.FormClosedEventArgs)">
+            <summary>Задает заглушка Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnFormClosedFormClosedEventArgs">
+            <summary>Задает stub Form.OnFormClosed(FormClosedEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnFormClosing(System.Windows.Forms.FormClosingEventArgs)">
+            <summary>Задает заглушка Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnFormClosingFormClosingEventArgs">
+            <summary>Задает stub Form.OnFormClosing(FormClosingEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnGiveFeedback(System.Windows.Forms.GiveFeedbackEventArgs)">
+            <summary>Задает заглушка Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Задает stub Control.OnGiveFeedback(GiveFeedbackEventArgs gfbevent)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnGotFocus(System.EventArgs)">
+            <summary>Задает заглушка Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnGotFocusEventArgs">
+            <summary>Задает stub Control.OnGotFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHandleCreated(System.EventArgs)">
+            <summary>Задает заглушка Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHandleCreatedEventArgs">
+            <summary>Задает stub Form.OnHandleCreated(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHandleDestroyed(System.EventArgs)">
+            <summary>Задает заглушка Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHandleDestroyedEventArgs">
+            <summary>Задает stub Form.OnHandleDestroyed(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHelpButtonClicked(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает заглушка Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHelpButtonClickedCancelEventArgs">
+            <summary>Задает stub Form.OnHelpButtonClicked(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHelpRequested(System.Windows.Forms.HelpEventArgs)">
+            <summary>Задает заглушка Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnHelpRequestedHelpEventArgs">
+            <summary>Задает stub Control.OnHelpRequested(HelpEventArgs hevent)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnImeModeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnImeModeChangedEventArgs">
+            <summary>Задает stub Control.OnImeModeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnInputLanguageChanged(System.Windows.Forms.InputLanguageChangedEventArgs)">
+            <summary>Задает заглушка Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnInputLanguageChangedInputLanguageChangedEventArgs">
+            <summary>Задает stub Form.OnInputLanguageChanged(InputLanguageChangedEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnInputLanguageChanging(System.Windows.Forms.InputLanguageChangingEventArgs)">
+            <summary>Задает заглушка Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnInputLanguageChangingInputLanguageChangingEventArgs">
+            <summary>Задает stub Form.OnInputLanguageChanging(InputLanguageChangingEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnInvalidated(System.Windows.Forms.InvalidateEventArgs)">
+            <summary>Задает заглушка Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnInvalidatedInvalidateEventArgs">
+            <summary>Задает stub Control.OnInvalidated(InvalidateEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnKeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnKeyDownKeyEventArgs">
+            <summary>Задает stub Control.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>Задает заглушка Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnKeyPressKeyPressEventArgs">
+            <summary>Задает stub Control.OnKeyPress(KeyPressEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>Задает заглушка Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnKeyUpKeyEventArgs">
+            <summary>Задает stub Control.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLayout(System.Windows.Forms.LayoutEventArgs)">
+            <summary>Задает заглушка Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLayoutLayoutEventArgs">
+            <summary>Задает stub Form.OnLayout(LayoutEventArgs levent)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLeaveEventArgs">
+            <summary>Задает stub Control.OnLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLoad(System.EventArgs)">
+            <summary>Задает заглушка Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLoadEventArgs">
+            <summary>Задает stub Form.OnLoad(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLocationChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLocationChangedEventArgs">
+            <summary>Задает stub Control.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLostFocus(System.EventArgs)">
+            <summary>Задает заглушка Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnLostFocusEventArgs">
+            <summary>Задает stub Control.OnLostFocus(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMarginChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMarginChangedEventArgs">
+            <summary>Задает stub Control.OnMarginChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMaximizedBoundsChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMaximizedBoundsChangedEventArgs">
+            <summary>Задает stub Form.OnMaximizedBoundsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMaximumSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMaximumSizeChangedEventArgs">
+            <summary>Задает stub Form.OnMaximumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMdiChildActivate(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMdiChildActivateEventArgs">
+            <summary>Задает stub Form.OnMdiChildActivate(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMenuComplete(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMenuCompleteEventArgs">
+            <summary>Задает stub Form.OnMenuComplete(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMenuStart(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMenuStartEventArgs">
+            <summary>Задает stub Form.OnMenuStart(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMinimumSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMinimumSizeChangedEventArgs">
+            <summary>Задает stub Form.OnMinimumSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseCaptureChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseCaptureChangedEventArgs">
+            <summary>Задает stub Control.OnMouseCaptureChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseDoubleClick(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseDoubleClickMouseEventArgs">
+            <summary>Задает stub Control.OnMouseDoubleClick(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseDownMouseEventArgs">
+            <summary>Задает stub Control.OnMouseDown(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseEnter(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseEnterEventArgs">
+            <summary>Задает stub Control.OnMouseEnter(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseHover(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseHoverEventArgs">
+            <summary>Задает stub Control.OnMouseHover(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseLeave(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseLeaveEventArgs">
+            <summary>Задает stub Control.OnMouseLeave(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseMoveMouseEventArgs">
+            <summary>Задает stub Control.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseUpMouseEventArgs">
+            <summary>Задает stub Control.OnMouseUp(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseWheel(System.Windows.Forms.MouseEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMouseWheelMouseEventArgs">
+            <summary>Задает stub ScrollableControl.OnMouseWheel(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMove(System.EventArgs)">
+            <summary>Задает заглушка Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnMoveEventArgs">
+            <summary>Задает stub Control.OnMove(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnNotifyMessage(System.Windows.Forms.Message)">
+            <summary>Задает заглушка Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnNotifyMessageMessage">
+            <summary>Задает stub Control.OnNotifyMessage(Message m)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPaddingChanged(System.EventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPaddingChangedEventArgs">
+            <summary>Задает stub ScrollableControl.OnPaddingChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPaintBackground(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPaintBackgroundPaintEventArgs">
+            <summary>Задает stub ScrollableControl.OnPaintBackground(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPaintPaintEventArgs">
+            <summary>Задает stub Form.OnPaint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentBackColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentBackColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentBackgroundImageChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentBackgroundImageChangedEventArgs">
+            <summary>Задает stub Control.OnParentBackgroundImageChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentBindingContextChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentBindingContextChangedEventArgs">
+            <summary>Задает stub Control.OnParentBindingContextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentChanged(System.EventArgs)">
+            <summary>Задает заглушка ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentChangedEventArgs">
+            <summary>Задает stub ContainerControl.OnParentChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentCursorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentCursorChangedEventArgs">
+            <summary>Задает stub Control.OnParentCursorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentEnabledChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentEnabledChangedEventArgs">
+            <summary>Задает stub Control.OnParentEnabledChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentFontChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentFontChangedEventArgs">
+            <summary>Задает stub Control.OnParentFontChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentForeColorChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentForeColorChangedEventArgs">
+            <summary>Задает stub Control.OnParentForeColorChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentRightToLeftChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentRightToLeftChangedEventArgs">
+            <summary>Задает stub Control.OnParentRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentVisibleChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnParentVisibleChangedEventArgs">
+            <summary>Задает stub Control.OnParentVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPreviewKeyDown(System.Windows.Forms.PreviewKeyDownEventArgs)">
+            <summary>Задает заглушка Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPreviewKeyDownPreviewKeyDownEventArgs">
+            <summary>Задает stub Control.OnPreviewKeyDown(PreviewKeyDownEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPrint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Задает заглушка Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnPrintPaintEventArgs">
+            <summary>Задает stub Control.OnPrint(PaintEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnQueryContinueDrag(System.Windows.Forms.QueryContinueDragEventArgs)">
+            <summary>Задает заглушка Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Задает stub Control.OnQueryContinueDrag(QueryContinueDragEventArgs qcdevent)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnRegionChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnRegionChangedEventArgs">
+            <summary>Задает stub Control.OnRegionChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnResize(System.EventArgs)">
+            <summary>Задает заглушка Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnResizeBegin(System.EventArgs)">
+            <summary>Задает заглушка Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnResizeBeginEventArgs">
+            <summary>Задает stub Form.OnResizeBegin(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnResizeEnd(System.EventArgs)">
+            <summary>Задает заглушка Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnResizeEndEventArgs">
+            <summary>Задает stub Form.OnResizeEnd(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnResizeEventArgs">
+            <summary>Задает stub Form.OnResize(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnRightToLeftChanged(System.EventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnRightToLeftChangedEventArgs">
+            <summary>Задает stub ScrollableControl.OnRightToLeftChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnRightToLeftLayoutChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnRightToLeftLayoutChangedEventArgs">
+            <summary>Задает stub Form.OnRightToLeftLayoutChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnScroll(System.Windows.Forms.ScrollEventArgs)">
+            <summary>Задает заглушка ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnScrollScrollEventArgs">
+            <summary>Задает stub ScrollableControl.OnScroll(ScrollEventArgs se)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnShown(System.EventArgs)">
+            <summary>Задает заглушка Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnShownEventArgs">
+            <summary>Задает stub Form.OnShown(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnSizeChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnSizeChangedEventArgs">
+            <summary>Задает stub Control.OnSizeChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnStyleChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnStyleChangedEventArgs">
+            <summary>Задает stub Form.OnStyleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnSystemColorsChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnSystemColorsChangedEventArgs">
+            <summary>Задает stub Control.OnSystemColorsChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnTabIndexChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnTabIndexChangedEventArgs">
+            <summary>Задает stub Control.OnTabIndexChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnTabStopChanged(System.EventArgs)">
+            <summary>Задает заглушка Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnTabStopChangedEventArgs">
+            <summary>Задает stub Control.OnTabStopChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnTextChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnTextChangedEventArgs">
+            <summary>Задает stub Form.OnTextChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnValidated(System.EventArgs)">
+            <summary>Задает заглушка Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnValidatedEventArgs">
+            <summary>Задает stub Control.OnValidated(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnValidating(System.ComponentModel.CancelEventArgs)">
+            <summary>Задает заглушка Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnValidatingCancelEventArgs">
+            <summary>Задает stub Control.OnValidating(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnVisibleChanged(System.EventArgs)">
+            <summary>Задает заглушка Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.OnVisibleChangedEventArgs">
+            <summary>Задает stub Form.OnVisibleChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.PreProcessMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.PreProcessMessageMessageRef">
+            <summary>Задает stub Control.PreProcessMessage(Message&amp; msg)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>Задает заглушка Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessCmdKeyMessageRefKeys">
+            <summary>Задает stub Form.ProcessCmdKey(Message&amp; msg, Keys keyData)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessDialogChar(System.Char)">
+            <summary>Задает заглушка Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessDialogCharChar">
+            <summary>Задает stub Form.ProcessDialogChar(Char charCode)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessDialogKey(System.Windows.Forms.Keys)">
+            <summary>Задает заглушка Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessDialogKeyKeys">
+            <summary>Задает stub Form.ProcessDialogKey(Keys keyData)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessKeyEventArgs(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessKeyEventArgsMessageRef">
+            <summary>Задает stub Control.ProcessKeyEventArgs(Message&amp; m)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessKeyMessage(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessKeyMessageMessageRef">
+            <summary>Задает stub Control.ProcessKeyMessage(Message&amp; m)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessKeyPreview(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessKeyPreviewMessageRef">
+            <summary>Задает stub Form.ProcessKeyPreview(Message&amp; m)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessMnemonic(System.Char)">
+            <summary>Задает заглушка Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessMnemonicChar">
+            <summary>Задает stub Form.ProcessMnemonic(Char charCode)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessTabKey(System.Boolean)">
+            <summary>Задает заглушка Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ProcessTabKeyBoolean">
+            <summary>Задает stub Form.ProcessTabKey(Boolean forward)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Refresh">
+            <summary>Задает заглушка Control.Refresh()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Refresh01">
+            <summary>Задает stub Control.Refresh()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetBackColor">
+            <summary>Задает заглушка Control.ResetBackColor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetBackColor01">
+            <summary>Задает stub Control.ResetBackColor()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetCursor">
+            <summary>Задает заглушка Control.ResetCursor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetCursor01">
+            <summary>Задает stub Control.ResetCursor()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetFont">
+            <summary>Задает заглушка Control.ResetFont()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetFont01">
+            <summary>Задает stub Control.ResetFont()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetForeColor">
+            <summary>Задает заглушка Control.ResetForeColor()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetForeColor01">
+            <summary>Задает stub Control.ResetForeColor()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetRightToLeft">
+            <summary>Задает заглушка Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetRightToLeft01">
+            <summary>Задает stub Control.ResetRightToLeft()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetText">
+            <summary>Задает заглушка Control.ResetText()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ResetText01">
+            <summary>Задает stub Control.ResetText()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.RightToLeftGet">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.RightToLeftLayoutGet">
+            <summary>Задает stub Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.RightToLeftLayoutSetBoolean">
+            <summary>Задает stub Form.set_RightToLeftLayout(Boolean value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.RightToLeftSetRightToLeft">
+            <summary>Задает stub Control.set_RightToLeft(RightToLeft value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScaleChildrenGet">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScaleControl(System.Drawing.SizeF,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScaleControlSizeFBoundsSpecified">
+            <summary>Задает stub Form.ScaleControl(SizeF factor, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScaleCore(System.Single,System.Single)">
+            <summary>Задает заглушка Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScaleCoreSingleSingle">
+            <summary>Задает stub Form.ScaleCore(Single x, Single y)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScrollToControl(System.Windows.Forms.Control)">
+            <summary>Задает заглушка ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScrollToControlControl">
+            <summary>Задает stub ScrollableControl.ScrollToControl(Control activeControl)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Select(System.Boolean,System.Boolean)">
+            <summary>Задает заглушка Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SelectBooleanBoolean">
+            <summary>Задает stub Form.Select(Boolean directed, Boolean forward)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SetBoundsCore(System.Int32,System.Int32,System.Int32,System.Int32,System.Windows.Forms.BoundsSpecified)">
+            <summary>Задает заглушка Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SetBoundsCoreInt32Int32Int32Int32BoundsSpecified">
+            <summary>Задает stub Form.SetBoundsCore(Int32 x, Int32 y, Int32 width, Int32 height, BoundsSpecified specified)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SetClientSizeCore(System.Int32,System.Int32)">
+            <summary>Задает заглушка Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SetClientSizeCoreInt32Int32">
+            <summary>Задает stub Form.SetClientSizeCore(Int32 x, Int32 y)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SetVisibleCore(System.Boolean)">
+            <summary>Задает заглушка Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SetVisibleCoreBoolean">
+            <summary>Задает stub Form.SetVisibleCore(Boolean value)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ShowFocusCuesGet">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ShowKeyboardCuesGet">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ShowWithoutActivationGet">
+            <summary>Задает stub Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SiteGet">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SiteSetISite">
+            <summary>Задает stub Control.set_Site(ISite value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SizeFromClientSize(System.Drawing.Size)">
+            <summary>Задает заглушка Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.SizeFromClientSizeSize">
+            <summary>Задает stub Control.SizeFromClientSize(Size clientSize)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.TextGet">
+            <summary>Задает stub Form.get_Text()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.TextSetString">
+            <summary>Задает stub Form.set_Text(String value)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ToString">
+            <summary>Задает заглушка Form.ToString()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ToString01">
+            <summary>Задает stub Form.ToString()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.UpdateDefaultButton">
+            <summary>Задает заглушка Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.UpdateDefaultButton01">
+            <summary>Задает stub Form.UpdateDefaultButton()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ValidateChildren">
+            <summary>Задает заглушка Form.ValidateChildren()</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ValidateChildren(System.Windows.Forms.ValidationConstraints)">
+            <summary>Задает заглушка Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ValidateChildren01">
+            <summary>Задает stub Form.ValidateChildren()</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ValidateChildrenValidationConstraints">
+            <summary>Задает stub Form.ValidateChildren(ValidationConstraints validationConstraints)</summary>
+        </member>
+        <member name="M:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.WndProc(System.Windows.Forms.Message@)">
+            <summary>Задает заглушка Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="F:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.WndProcMessageRef">
+            <summary>Задает stub Form.WndProc(Message&amp; m)</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AllowDrop">
+            <summary>Задает stub Control.get_AllowDrop()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Anchor">
+            <summary>Задает stub Control.get_Anchor()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScaleBaseSize">
+            <summary>Задает stub Form.get_AutoScaleBaseSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScroll">
+            <summary>Задает stub Form.get_AutoScroll()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoScrollOffset">
+            <summary>Задает stub Control.get_AutoScrollOffset()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoSize">
+            <summary>Задает stub Form.get_AutoSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.AutoValidate">
+            <summary>Задает stub Form.get_AutoValidate()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackColor">
+            <summary>Задает stub Form.get_BackColor()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackgroundImage">
+            <summary>Задает stub Control.get_BackgroundImage()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BackgroundImageLayout">
+            <summary>Задает stub Control.get_BackgroundImageLayout()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.BindingContext">
+            <summary>Задает stub ContainerControl.get_BindingContext()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CanEnableIme">
+            <summary>Задает stub ContainerControl.get_CanEnableIme()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CanRaiseEvents">
+            <summary>Задает stub Control.get_CanRaiseEvents()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ContextMenu">
+            <summary>Задает stub Control.get_ContextMenu()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ContextMenuStrip">
+            <summary>Задает stub Control.get_ContextMenuStrip()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.CreateParams">
+            <summary>Задает stub Form.get_CreateParams()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Cursor">
+            <summary>Задает stub Control.get_Cursor()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultCursor">
+            <summary>Задает stub Control.get_DefaultCursor()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultImeMode">
+            <summary>Задает stub Form.get_DefaultImeMode()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultMargin">
+            <summary>Задает stub Control.get_DefaultMargin()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultMaximumSize">
+            <summary>Задает stub Control.get_DefaultMaximumSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultMinimumSize">
+            <summary>Задает stub Control.get_DefaultMinimumSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultPadding">
+            <summary>Задает stub Control.get_DefaultPadding()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DefaultSize">
+            <summary>Задает stub Form.get_DefaultSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DisplayRectangle">
+            <summary>Задает stub ScrollableControl.get_DisplayRectangle()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Dock">
+            <summary>Задает stub Control.get_Dock()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.DoubleBuffered">
+            <summary>Задает stub Control.get_DoubleBuffered()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Focused">
+            <summary>Задает stub Control.get_Focused()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Font">
+            <summary>Задает stub Control.get_Font()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ForeColor">
+            <summary>Задает stub Control.get_ForeColor()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ImeModeBase">
+            <summary>Задает stub Control.get_ImeModeBase()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.LayoutEngine">
+            <summary>Задает stub Control.get_LayoutEngine()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.MaximumSize">
+            <summary>Задает stub Form.get_MaximumSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.MinimumSize">
+            <summary>Задает stub Form.get_MinimumSize()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.RightToLeft">
+            <summary>Задает stub Control.get_RightToLeft()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.RightToLeftLayout">
+            <summary>Задает stub Form.get_RightToLeftLayout()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ScaleChildren">
+            <summary>Задает stub Control.get_ScaleChildren()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ShowFocusCues">
+            <summary>Задает stub Control.get_ShowFocusCues()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ShowKeyboardCues">
+            <summary>Задает stub Control.get_ShowKeyboardCues()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.ShowWithoutActivation">
+            <summary>Задает stub Form.get_ShowWithoutActivation()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Site">
+            <summary>Задает stub Control.get_Site()</summary>
+        </member>
+        <member name="P:AForge.Video.DirectShow.Fakes.StubVideoCaptureDeviceForm.Text">
+            <summary>Задает stub Form.get_Text()</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.AForgeVideoDirectShowDelegates">
+            <summary>Содержит пользовательские делегаты для заглушек и оболочек совместимости AForge.Video.DirectShow</summary>
+        </member>
+    </members>
+</doc>
